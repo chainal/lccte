@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/chainal/lccte/lib"
+)
 
 func main() {
-	fmt.Println("Hello world!")
+	fmt.Println(lib.SayHello())
 }
